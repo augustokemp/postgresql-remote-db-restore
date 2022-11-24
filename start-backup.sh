@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FOLDER_NAME=postgresql-remote-db-update
+FOLDER_NAME=postgresql-remote-db-restore
 DIR=~/$FOLDER_NAME
 if [ -d "${DIR}" ]; then
 	cd $DIR
