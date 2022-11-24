@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FOLDER_NAME=scripts
+FOLDER_NAME=postgresql-remote-db-update
 DIR=~/$FOLDER_NAME
 if [ -d "${DIR}" ]; then
 	cd ~/scripts
