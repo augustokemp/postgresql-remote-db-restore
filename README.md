@@ -1,6 +1,10 @@
-# Script para automação de atualização de BD PostgreSQL
-# Backup remoto utlizando SSH
+# PostgreSQL Remote DB Restore
+- Shell script for automatic database backup restoration from remote SSH server.
 
-1. Alterar configurações arquivo "CONFIG.SH"
-2. Instalar lib sshpass para conectar ao servidor remoto c/ password: ```sudo apt-get install sshpass```
-3. ```sh start-backup.sh```
+* Must have:
+- Remote server with SSH configured
+- **sshpass** lib installed on local server: ```sudo apt-get install sshpass```
+
+* How to:
+1. Change the variable values in the **CONFIG.SH** file
+2. ```sh start-backup.sh```
