@@ -8,6 +8,6 @@ if [ -d "${DIR}" ]; then
 		sh ./reset-db.sh &&
 		echo "All Done!"
 else
-	echo "Diretório inexistente: ${DIR}."
-	echo "Crie uma pasta chamada <${FOLDER_NAME}> e salve os arquivos dentro dela antes de executar 'start-backup.sh'"
+	echo "Directory not found: ${DIR}."
+	echo "Create a folder called <${FOLDER_NAME}> and save all files inside it before running 'start-backup.sh'"
 fi
