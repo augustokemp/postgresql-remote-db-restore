@@ -3,7 +3,7 @@
 FOLDER_NAME=postgresql-remote-db-update
 DIR=~/$FOLDER_NAME
 if [ -d "${DIR}" ]; then
-	cd ~/scripts
+	cd $DIR
 	sh ./get-backup.sh &&
 		sh ./reset-db.sh &&
 		echo "All Done!"
