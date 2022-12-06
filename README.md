@@ -14,4 +14,4 @@
 ### Run script every weekday at 08:00am:
 1. ```sudo nano /etc/crontab```
 2. Add the following line
-> 0   8   * * 1,2,3,4,5   root    sh ~/postgresql-remote-db-restore/start-backup.sh
+> 0   8   * * 1,2,3,4,5   root    cd ~/postgresql-remote-db-restore && sh start-backup.sh
